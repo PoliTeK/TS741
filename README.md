@@ -11,7 +11,7 @@ Abbiamo usato un [modello dell'op-amp TL072](https://ltwiki.org/index.php?title=
 Per vedere qual è la cartella dei componenti di LTspice sul tuo computer:
 - Aprire in LTspice una schermata di una schematic qualsiasi.
 - Aprire la finestra dei componenti.
-- Sotto `Top Directory:` c'è il percorso della cartella della libreria interna di LTspice (dovrebbe essere qualcosa del tipo `C:\users\<nome utente>\AppData\Local\LTspice\lib\sym`).
+- Sotto `Top Directory:` c'è il percorso della cartella della libreria interna di LTspice (su Windows dovrebbe essere qualcosa del tipo `C:\users\<nome utente>\AppData\Local\LTspice\lib\sym`).
 	- Se si sta eseguendo LTspice su Linux con Wine, la cartella `C:\users\<nome utente>\AppData\Local\LTspice\lib\sym` corrisponde alla cartella `~/.wine/drive_c/users/<nome utente>/AppData/Local/LTspice/lib/sym`.
 
 Quindi spostare i file:
@@ -38,3 +38,29 @@ Dopo aver spostato i due file, riavviare LTspice per far comparire il modello de
 ## Risoluzione errore `Bad wave file format found in test.wav`
 
 https://www.reddit.com/r/diypedals/comments/oozekw/ltspice_wav_file_input/
+
+# Potenziometri
+ 
+Un potenziometro con andamento lineare può essere costruito su SPICE come due resistori `Tone1` e `Tone2` rispettivamente di valori $m * R_{max}$ e $(1 - m) * R_{max}$ dove:
+- $R_{max}$ è il valore massimo del potenziometro;
+- $m$ è un parametro che va da $0$ a $1$ e indica quanto è aperto il potenziometro.
+
+Per inserire questi valori nei resistori `Tone1` e `Tone2`, fare `Ctrl + click destro` sul resistore e inserire la formula tra parentesi graffe.
+ 
+Con il comando `.param` si può fissare il valore di un parametro:
+```
+.param <nome_parametro> = <valore_parametro>
+```
+
+Un potenziometro con andamento logaritmico, invece, si rappresenta con due resistori di valore $R_{tot} * (1 - m^k)$ e $R_{tot} * m^k$.
+
+Attenzione: l'elevamento a potenza lo si scrive come `m**k` e non `m^k`.
+ 
+Con il comando `.step param` si può fare una simulazione delle grandezze del circuito ($V$ e $I$) al variare del parametro:
+```
+.step param <nome_parametro> <valore_min> <valore_max> <incremento>
+```
+
+## La resistenza $R_{min}$
+
+Attenzione: per le simulazioni si vorrebbe far variare il parametro $m$ da $0$ (potenziometro tutto chiuso) a $1$ (potenziometro tutto aperto) ma LTspice non accetta valori di resistenza pari a $0$, quindi dà errore quando calcola i valori di $R$ per $m = 0$ e $m = 1$. Per ovviare a ciò si aggiunge ai valori di resistenza una $R_{min}$ molto bassa (`1m`, cioè $10^{-3}$).
