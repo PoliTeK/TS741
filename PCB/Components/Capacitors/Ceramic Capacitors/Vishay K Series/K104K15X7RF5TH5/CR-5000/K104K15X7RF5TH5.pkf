@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "K104K15X7RF5TH5"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "K104K15X7RF5TH5")
+        (spec "default")
+    )
+)

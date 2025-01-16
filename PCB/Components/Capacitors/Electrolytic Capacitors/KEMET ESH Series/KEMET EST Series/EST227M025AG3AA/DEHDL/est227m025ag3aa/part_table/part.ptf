@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EST227M025AG3AA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "EST227M025AG3AA" (!) = "", "CAPPRD350W60D800H1250", "Capacitor, Polarized Radial Diameter", "80-EST227M025AG3AA", "https://www.mouser.co.uk/ProductDetail/KEMET/EST227M025AG3AA?qs=gt1LBUVyoHnyrm3x6X1rbg%3D%3D", "EST, Aluminum, Aluminum Electrolytic, 220 uF, 20%, 25 VDC, -40/+105C, 105C, -40C, 105C, 7,000 Hrs, 14 % , 200 mOhms, 55 uA, 2, 3, 8mm, 11mm, Lead Spacing = 3.5mm, 20mm, 6000", "https://content.kemet.com/datasheets/KEM_A4010_EST.pdf", "12.5 mm"
+END_PART
+
+END.

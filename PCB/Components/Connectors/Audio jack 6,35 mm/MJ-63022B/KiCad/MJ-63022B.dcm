@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MJ-63022B
+D 6.35 mm, Mono, Right Angle, Through Hole Mount, 2 Conductors, 1 Internal Switch, Audio Jack Connector
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/mj-63022b.pdf
+$ENDCMP
+#
+#End Doc Library

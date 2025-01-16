@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "KA431AZTA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "KA431AZTA")
+        (spec "default")
+    )
+)

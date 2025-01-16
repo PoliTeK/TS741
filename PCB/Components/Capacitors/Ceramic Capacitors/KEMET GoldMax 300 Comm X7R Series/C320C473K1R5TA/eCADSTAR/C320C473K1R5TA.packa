@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C320C473K1R5TA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-21-09:37:02)
+    (mountForm default
+        (footprintRef "C320C473K1R5TA")
+        (spec "System")
+    )
+)

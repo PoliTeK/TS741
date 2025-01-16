@@ -1,0 +1,142 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TLHG5420-ASZ"
+   (description "Standard LEDs - Through Hole 5MM LED GREEN TINT. DIFFused with Standoff")
+   (family "DIO")
+   (package "TLHG5420ASZ")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/86335/tlhg542_tlhg642.pdf")
+   (attribute "Geometry.Height" "12.8mm")
+   (attribute "Mouser Part Number" "78-TLHG5420-ASZ")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/TLHG5420-ASZ?qs=M%2FWrVUahkW9Iv5EBNpgqMA%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "TLHG5420-ASZ")
+   (gate
+    (symbol "TLHG5420-ASZ")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "TLHG5420-ASZ"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 100) (pt 150 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 100) (pt 250 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 210 170) (pt 180 140) (pt 150 200) (pt 210 170))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 310 170) (pt 280 140) (pt 250 200) (pt 310 170))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TLHG5420ASZ"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.22 3.95)
+      (pt 2.68 3.95)
+      (pt 2.68 -3.95)
+      (pt -5.22 -3.95)
+      (pt -5.22 3.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 2.95)
+      (arc (pt -1.270 2.950) (pt -4.220 -2.950) (pt 1.680 2.950) (start 180.0) (sweep 90.0))
+      (pt -1.27 -2.95)
+      (arc (pt -1.270 -2.950) (pt -4.220 -2.950) (pt 1.680 2.950) (start 180.0) (sweep -90.0))
+      (pt -1.27 2.95))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.27 2.95)
+      (arc (pt -1.270 2.950) (pt -4.220 -2.950) (pt 1.680 2.950) (start 180.0) (sweep 90.0))
+      (pt -1.27 -2.95)
+      (arc (pt -1.270 -2.950) (pt -4.220 -2.950) (pt 1.680 2.950) (start 180.0) (sweep -90.0))
+      (pt -1.27 2.95))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.2 0)
+      (arc (pt 2.200 0.000) (pt 2.100 -0.050) (pt 2.200 0.050) (start 180.0) (sweep .0))
+      (pt 2.1 0)
+      (arc (pt 2.100 0.000) (pt 2.100 -0.050) (pt 2.200 0.050) (start 180.0) (sweep 180.0))
+      (pt 2.2 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -2.540 0.000) (padstack 2))
+   (padstack 0
+    (hole 0.91)
+    (plated true)
+    (pad (layer TCOP) (square 1.416))
+    (pad (layer INNER) (round 1.416))
+    (pad (layer BCOP) (square 1.416))
+   )
+   (padstack 2
+    (hole 0.91)
+    (plated true)
+    (pad (layer TCOP) (round 1.416))
+    (pad (layer INNER) (round 1.416))
+    (pad (layer BCOP) (round 1.416))
+   )
+   (model "TLHG5420-ASZ.stp"
+    (euler 0 0 0)
+    (offset -1.2400000095367432 0 4.639999866485596)
+   )
+  )
+ )
+)

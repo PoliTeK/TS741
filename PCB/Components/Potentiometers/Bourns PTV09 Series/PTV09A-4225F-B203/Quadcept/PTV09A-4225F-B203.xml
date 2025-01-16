@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1154768/1581014/2.50/5/3/Variable Resistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c150_h100" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="39.370078740157">
+    <padshape layer="TOP" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="66.929133858267" height="66.929133858267" />
+    <padshape layer="INNER" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="66.929133858267" height="66.929133858267" />
+  </padstyle>
+  <padstyle name="s150_h100" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="39.370078740157">
+    <padshape layer="TOP" shape="square" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="66.929133858267" height="66.929133858267" />
+    <padshape layer="INNER" shape="square" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM" shape="square" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="66.929133858267" height="66.929133858267" />
+  </padstyle>
+  <padstyle name="c426_h284" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="111.81102362205">
+    <padshape layer="TOP" shape="round" width="167.71653543307" height="167.71653543307" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="175.5905511811" height="175.5905511811" />
+    <padshape layer="INNER" shape="round" width="167.71653543307" height="167.71653543307" />
+    <padshape layer="BOTTOM" shape="round" width="167.71653543307" height="167.71653543307" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="175.5905511811" height="175.5905511811" />
+  </padstyle>
+  <footprint name="PTV09A4225FB203" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s150_h100" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c150_h100" originx="98.425196850392" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="c150_h100" originx="196.85039370078" originy="0" rotation="90" />
+    <pcbpin number="4" name="MH1" style="c426_h284" originx="-74.803149606298" originy="275.5905511811" rotation="90" />
+    <pcbpin number="5" name="MH2" style="c426_h284" originx="271.65354330708" originy="275.5905511811" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-92.519685039369" originy="59.055118110235" endx="289.37007874015" endy="59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="289.37007874015" originy="59.055118110235" endx="289.37007874015" endy="492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="289.37007874015" originy="492.12598425196" endx="-92.519685039369" endy="492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-92.519685039369" originy="492.12598425196" endx="-92.519685039369" endy="59.055118110235" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-198.03149606299" originy="531.49606299212" endx="394.88188976377" endy="531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="394.88188976377" originy="531.49606299212" endx="394.88188976377" endy="-68.897637795275" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="394.88188976377" originy="-68.897637795275" endx="-198.03149606299" endy="-68.897637795275" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-198.03149606299" originy="-68.897637795275" endx="-198.03149606299" endy="531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-92.519685039369" originy="381.88976377952" endx="-92.519685039369" endy="492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-92.519685039369" originy="492.12598425196" endx="289.37007874015" endy="492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="289.37007874015" originy="492.12598425196" endx="289.37007874015" endy="381.88976377952" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="289.37007874015" originy="169.29133858268" endx="289.37007874015" endy="59.055118110235" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="289.37007874015" originy="59.055118110235" endx="-92.519685039369" endy="59.055118110235" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-92.519685039369" originy="59.055118110235" endx="-92.519685039369" endy="169.29133858268" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-47.244094488188" endx="0" endy="-47.244094488188" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.6391087961985E-15" originy="-49.212598425196" startangle="90.0" sweepangle="180.0" radius="1.9685039370079" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-51.181102362204" endx="0" endy="-51.181102362204" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.6391087961985E-15" originy="-49.212598425196" startangle="-90.0" sweepangle="180.0" radius="1.9685039370079" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="-47.244094488188" endx="0" endy="-47.244094488188" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="1.6391087961985E-15" originy="-49.212598425196" startangle="90.0" sweepangle="180.0" radius="1.9685039370079" width="7.8740157480314" />
+  </footprint>
+  <symbol name="PTV09A-4225F-B203" originx="0" originy="0">
+    <line originx="200" originy="100" endx="900" endy="100" width="0" />
+    <line originx="900" originy="-300" endx="900" endy="100" width="0" />
+    <line originx="900" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="CCW" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="WIPER" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="CW" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="900" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="870" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH1" />
+      <text name="pindes" originx="960" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH1" />
+    </sympin>
+    <sympin number="5" originx="900" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="870" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="MH2" />
+      <text name="pindes" originx="960" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="MH2" />
+    </sympin>
+  </symbol>
+  <component name="PTV09A-4225F-B203" designatorprefix="VR" height="1003.937007874" footprint="PTV09A4225FB203">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="CCW" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="WIPER" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="CW" />
+    <comppin designator="MH1" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH1" />
+    <comppin designator="MH2" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MH2" />
+    <attached_symbol gate="1" name="PTV09A-4225F-B203" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="MH1" footprintpin="4" />
+    <pinmap designator="MH2" footprintpin="5" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Potentiometers 20K  20%  9MM CARBON POT" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="652-PTV09A-4225FB203" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4225F-B203?qs=Qzws7J6gxqyY5BTaAqzbXg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Bourns" />
+    <text name="Manufacturer_Part_Number" originx="950" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PTV09A-4225F-B203" />
+  </component>
+</quadcept_library>

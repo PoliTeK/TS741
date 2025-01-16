@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLHG5420-ASZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-12-03:59:37)
+    (mountForm default
+        (footprintRef "TLHG5420ASZ")
+        (spec "System")
+    )
+)

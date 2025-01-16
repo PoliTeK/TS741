@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC550CTA
+D Bipolar Transistors - BJT NPN 45V 100mA HFE/800
+K
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+#End Doc Library

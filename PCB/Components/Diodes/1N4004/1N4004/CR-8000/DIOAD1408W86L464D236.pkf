@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DIOAD1408W86L464D236"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DIOAD1408W86L464D236")
+        (spec "default")
+    )
+)

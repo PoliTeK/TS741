@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AR211C333K4RTR1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-20-07:44:55)
+    (mountForm default
+        (footprintRef "AR211C333K4RTR1")
+        (spec "System")
+    )
+)

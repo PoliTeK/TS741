@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_1273969"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-12-08:25:56)
+    (utime 2024-01-13-06:25:16)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1N4004")
+)
+
+
+(pinAssign "ECS_1273969"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-12-08:25:56)
+    (utime 2024-01-13-06:25:16)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1273969")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1N4004")
+)
+
+
+(part "1N4004"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-12-08:25:56)
+    (utime 2024-01-13-06:25:16)
+    (packageRef "1N4004")
+    (pinAssignRef "ECS_1273969")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Rectifiers Diode, DO-41, 400V, 1A")
+    (property "Mouser_Part_Number" "637-1N4004")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/1N4004?qs=OlC7AqGiEDk3eaZusDVIWQ%3D%3D")
+    (property "Manufacturer_Name" "Diotec")
+    (property "Manufacturer_Part_Number" "1N4004")
+    (property "Datasheet_Link" "https://www.diodes.com/assets/Datasheets/ds28002.pdf")
+)
+
+

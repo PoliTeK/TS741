@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=S202M29Z5UN63L6R
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2020-05-27 08:42:45
+Downloaded=2025-01-16 14:05:58
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP K104K15X7RF5TH5
+D Vishay K104K15X7RF5TH5 100nF Multilayer Ceramic Capacitor MLCC 50V dc +/-10% Tolerance Through Hole
+K
+F https://www.vishay.com/docs/45171/kseries.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4148
+D Small Signal Diode, 100V 0.3A 2-Pin DO35
+K
+F 
+$ENDCMP
+#
+#End Doc Library

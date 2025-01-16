@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLHG5420_ASZ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "TLHG5420-ASZ" (!) = "", "TLHG5420ASZ", "Other", "78-TLHG5420-ASZ", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/TLHG5420-ASZ?qs=M%2FWrVUahkW9Iv5EBNpgqMA%3D%3D", "Standard LEDs - Through Hole 5MM LED GREEN TINT. DIFFused with Standoff", "https://www.vishay.com/docs/86335/tlhg542_tlhg642.pdf", "12.8 mm"
+END_PART
+
+END.

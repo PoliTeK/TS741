@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EST227M025AG3AA
+#/1790091/1581014/2.50/2/2/Capacitor Polarised
+DEF EST227M025AG3AA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EST227M025AG3AA" 350 150 50 H V L CNN
+F2 "CAPPRD350W60D800H1250" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_A4010_EST.pdf" 350 -50 50 H I L CNN
+F4 "EST, Aluminum, Aluminum Electrolytic, 220 uF, 20%, 25 VDC, -40/+105C, 105C, -40C, 105C, 7,000 Hrs, 14 % , 200 mOhms, 55 uA, 2, 3, 8mm, 11mm, Lead Spacing = 3.5mm, 20mm, 6000" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "80-EST227M025AG3AA" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/EST227M025AG3AA?qs=gt1LBUVyoHnyrm3x6X1rbg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EST227M025AG3AA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

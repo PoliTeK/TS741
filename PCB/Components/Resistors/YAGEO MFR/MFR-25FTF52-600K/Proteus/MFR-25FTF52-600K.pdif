@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MFR-25FTF52-600K"
+   (description "Metal Film Resistors - Through Hole")
+   (family "RES")
+   (package "RESAD1590W60L630D240")
+   (attribute "Datasheet Link" "https://www.mouser.sg/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf")
+   (attribute "Mouser Part Number" "603-MFR-25FTF52-600K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FTF52-600K?qs=xZ%2FP%252Ba9zWqYtTZdHR75SUg%3D%3D")
+   (attribute "Manufacturer_Name" "YAGEO")
+   (attribute "Manufacturer_Part_Number" "MFR-25FTF52-600K")
+   (gate
+    (symbol "MFR-25FTF52-600K")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MFR-25FTF52-600K"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESAD1590W60L630D240"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.85 1.55)
+      (pt 16.75 1.55)
+      (pt 16.75 -1.55)
+      (pt -0.85 -1.55)
+      (pt -0.85 1.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.8 1.2)
+      (pt 11.1 1.2)
+      (pt 11.1 -1.2)
+      (pt 4.8 -1.2)
+      (pt 4.8 1.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 4.8 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 11.1 0)
+      (pt 15.9 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 4.8 1.2)
+      (pt 11.1 1.2)
+      (pt 11.1 -1.2)
+      (pt 4.8 -1.2)
+      (pt 4.8 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.95 0)
+      (pt 4.8 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11.1 0)
+      (pt 14.95 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 15.9 0) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (round 1.2))
+   )
+   (model "MFR-25FTF52-600K.stp"
+    (euler 0 0 0)
+    (offset 7.949999809265137 0 1.190000057220459)
+   )
+  )
+ )
+)

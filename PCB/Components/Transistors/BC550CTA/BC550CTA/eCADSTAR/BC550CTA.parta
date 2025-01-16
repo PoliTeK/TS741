@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_984340"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-11-11:42:38)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 3) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BC550CTA")
+)
+
+
+(pinAssign "ECS_984340"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-11-11:42:38)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_984340")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BC550CTA")
+)
+
+
+(part "BC550CTA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-11-11:42:38)
+    (utime 2024-09-19-14:45:22)
+    (packageRef "BC550CTA")
+    (pinAssignRef "ECS_984340")
+    (interface
+        (port "1" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Bipolar Transistors - BJT NPN 45V 100mA HFE/800")
+    (property "Mouser_Part_Number" "512-BC550CTA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BC550CTA?qs=ljbEvF4DwOM46%2Fg9NzWlqQ%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "BC550CTA")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf")
+    (property "compAreaTopHeight" 5.33)
+)
+
+

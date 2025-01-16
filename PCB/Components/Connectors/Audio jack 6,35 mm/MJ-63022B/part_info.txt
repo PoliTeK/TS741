@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=MJ-63022B
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=3.2
+Released=2021-06-20 09:40:40
+Downloaded=2025-01-16 14:44:41
+3D=Y

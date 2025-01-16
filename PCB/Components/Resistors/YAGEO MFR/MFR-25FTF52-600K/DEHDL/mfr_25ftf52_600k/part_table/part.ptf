@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MFR_25FTF52_600K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "YAGEO", "MFR-25FTF52-600K" (!) = "", "RESAD1590W60L630D240", "Resistors, Axial Diameter Horizontal Mounting", "603-MFR-25FTF52-600K", "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FTF52-600K?qs=xZ%2FP%252Ba9zWqYtTZdHR75SUg%3D%3D", "Metal Film Resistors - Through Hole", "https://www.mouser.sg/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
+END_PART
+
+END.

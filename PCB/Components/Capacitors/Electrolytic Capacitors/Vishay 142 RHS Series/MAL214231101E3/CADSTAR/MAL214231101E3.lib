@@ -1,0 +1,16 @@
+.MAL214231101E3 :1 ;Aluminum Electrolytic Capacitors - Radial Leaded 100uF 50V 8x12mm 105 C 2500h
+CAPPRD350W60D850H1300
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN MAL214231101E3
+~!Mouser Part Number (594-MAL214231101E3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL214231101E3?qs=Ep9Lwju7gVq%252BiOgwdeHCkg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (MAL214231101E3)
+~!Link Datasheet (http://www.vishay.com/docs/28402/142rhs.pdf)
+~!Height (13mm)
+~!3D_Model (MAL214231101E3)
+MAL214231101E3
+1.1!U 2.1!U 

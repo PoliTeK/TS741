@@ -1,0 +1,16 @@
+.TL072CP :1 ;Dual Low-Noise JFET-Input General-Purpose Operational Amplifier
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="1OUT" 2="1IN-" 3="1IN+" 4="VCC-" 5="2IN+" 6="2IN-" 7="2OUT" 8="VCC+"
+*MXP 8
+*DFN TL072CP
+~!Mouser Part Number (595-TL072CP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072CP?qs=5nGYs9Do7G3e6Tx9uHIgUA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL072CP)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tl071a.pdf)
+~!Height (5.08mm)
+~!3D_Model (TL072CP)
+TL072CP
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

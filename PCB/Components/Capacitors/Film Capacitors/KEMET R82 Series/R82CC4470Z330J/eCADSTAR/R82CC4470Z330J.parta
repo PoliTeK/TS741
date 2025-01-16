@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_627261"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-16-11:38:22)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "R82CC4470Z330J")
+)
+
+
+(pinAssign "ECS_627261"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-16-11:38:22)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_627261")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "R82CC4470Z330J")
+)
+
+
+(part "R82CC4470Z330J"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-16-11:38:22)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "R82CC4470Z330J")
+    (pinAssignRef "ECS_627261")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "R82, Film, Metallized Polyester, Automotive Grade, 4.7 uF, 5%, 30 VAC, 50 VDC, 105C, -55C, 85C, 0.8 % , 212.8 MOhms, 25 V/us, 7000 pH, 1.333 g, 7.2mm, 13mm, 7.2mm, Lead Spacing = 5mm, 750")
+    (property "Mouser_Part_Number" "80-R82CC4470Z330J")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R82CC4470Z330J?qs=Jv4FAWB%252B0HZ5VQmK5HF3SA%3D%3D")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "R82CC4470Z330J")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
+    (property "compAreaTopHeight" 13.1)
+)
+
+

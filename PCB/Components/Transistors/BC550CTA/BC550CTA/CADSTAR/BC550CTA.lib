@@ -1,0 +1,16 @@
+.BC550CTA :1 ;Bipolar Transistors - BJT NPN 45V 100mA HFE/800
+KA431AZTA
+*STM Q
+*NGS
+*PLB 1="C" 2="B" 3="E"
+*MXP 3
+*DFN BC550CTA
+~!Mouser Part Number (512-BC550CTA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BC550CTA?qs=ljbEvF4DwOM46%2Fg9NzWlqQ%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (BC550CTA)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/BC550-D.pdf)
+~!Height (5.33mm)
+~!3D_Model (BC550CTA)
+BC550CTA
+1.1!U 2.1!U 3.1!U 

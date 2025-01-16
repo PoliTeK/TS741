@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAL214231101E3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MAL214231101E3" (!) = "", "CAPPRD350W60D850H1300", "Capacitor, Polarized Radial Diameter", "594-MAL214231101E3", "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL214231101E3?qs=Ep9Lwju7gVq%252BiOgwdeHCkg%3D%3D", "Aluminum Electrolytic Capacitors - Radial Leaded 100uF 50V 8x12mm 105 C 2500h", "http://www.vishay.com/docs/28402/142rhs.pdf", "13 mm"
+END_PART
+
+END.

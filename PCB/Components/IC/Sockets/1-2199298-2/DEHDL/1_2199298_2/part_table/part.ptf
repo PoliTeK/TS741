@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1_2199298_2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1-2199298-2" (!) = "", "DIPS762W70P254L1016H510Q8N", "Dual-In-Line Sockets", "571-1-2199298-2", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-2199298-2?qs=fK8dlpkaUMtEKa4wabwOXQ%3D%3D", "TE CONNECTIVITY - 1-2199298-2 - IC SOCKET, DIP, 8POS, TH", "https://componentsearchengine.com/Datasheets/2/1-2199298-2.pdf", "5.1 mm"
+END_PART
+
+END.

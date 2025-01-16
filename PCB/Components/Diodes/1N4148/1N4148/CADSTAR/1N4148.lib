@@ -1,0 +1,16 @@
+.1N4148 :1 ;Small Signal Diode, 100V 0.3A 2-Pin DO35
+DIOAD1068W53L380D172
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N4148
+~!Mouser Part Number (512-1N4148)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (1N4148)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (1N4148)
+"1N4148"
+1.1!U 2.1!U 

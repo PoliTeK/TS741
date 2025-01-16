@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PTV09A-4225F-B203
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=5
+Version=1.3
+Released=2021-12-08 05:54:59
+Downloaded=2025-01-16 14:41:58
+3D=Y

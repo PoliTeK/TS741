@@ -1,0 +1,16 @@
+.AR211C333K4RTR1 :1 ;Multilayer Ceramic Capacitors MLCC - Leaded 100V .033uF X7R Tol 10% AEC-Q200
+AR211C333K4RTR1
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN AR211C333K4RTR1
+~!Mouser Part Number (581-AR211C333K4RTR1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/AR211C333K4RTR1?qs=qjUENa6g21uDLL5O2lasFg%3D%3D)
+~!Manufacturer_Name (Kyocera AVX)
+~!Manufacturer_Part_Number (AR211C333K4RTR1)
+~!Link Datasheet (https://datasheets.avx.com/AR-Series.pdf)
+~!Height (5.08mm)
+~!3D_Model (AR211C333K4RTR1)
+AR211C333K4RTR1
+1.1!U 2.1!U 

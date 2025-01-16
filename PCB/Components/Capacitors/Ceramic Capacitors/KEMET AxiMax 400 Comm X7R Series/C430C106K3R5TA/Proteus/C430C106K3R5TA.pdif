@@ -1,0 +1,165 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C430C106K3R5TA"
+   (description "AxiMax 400 Comm X7R, Ceramic, 10 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, AxiMax, Commercial Standard, 10 % , 50 MOhms, 3.81mm, 6.1mm, 25.4mm, 0.51mm, 200, 80")
+   (family "CAP")
+   (package "CAPPA2134W54L610D381")
+   (attribute "Datasheet Link" "https://content.kemet.com/datasheets/KEM_C1041_AXIMAX_X7R.pdf")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "C430C106K3R5TA")
+   (gate
+    (symbol "C430C106K3R5TA")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "C430C106K3R5TA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPA2134W54L610D381"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.825 2.255)
+      (pt 22.125 2.255)
+      (pt 22.125 -2.255)
+      (pt -0.825 -2.255)
+      (pt -0.825 2.255))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 7.6 1.905)
+      (pt 13.7 1.905)
+      (pt 13.7 -1.905)
+      (pt 7.6 -1.905)
+      (pt 7.6 1.905))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 7.6 0)
+      (pt 9.505 1.905))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 7.6 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 13.7 0)
+      (pt 21.3 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 7.6 1.905)
+      (pt 13.7 1.905)
+      (pt 13.7 -1.905)
+      (pt 7.6 -1.905)
+      (pt 7.6 1.905))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.6 0)
+      (pt 9.505 1.905))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.925 0)
+      (pt 7.6 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 13.7 0)
+      (pt 20.375 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 21.3 0) (padstack 0))
+   (padstack 0
+    (hole 0.75)
+    (plated true)
+    (pad (layer TCOP) (round 1.15))
+    (pad (layer INNER) (round 1.15))
+    (pad (layer BCOP) (round 1.15))
+   )
+   (padstack 1
+    (hole 0.75)
+    (plated true)
+    (pad (layer TCOP) (square 1.15))
+    (pad (layer INNER) (round 1.15))
+    (pad (layer BCOP) (square 1.15))
+   )
+   (model "C430C106K3R5TA.stp"
+    (euler 90 0 -90)
+    (offset 10.649999618530273 0 1.909999966621399)
+   )
+  )
+ )
+)

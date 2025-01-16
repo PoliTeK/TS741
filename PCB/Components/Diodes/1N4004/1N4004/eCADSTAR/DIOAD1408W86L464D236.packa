@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1N4004"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-12-08:25:56)
+    (mountForm default
+        (footprintRef "DIOAD1408W86L464D236")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTV09A_4225F_B203'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "PTV09A-4225F-B203" (!) = "", "PTV09A4225FB203", "Other", "652-PTV09A-4225FB203", "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4225F-B203?qs=Qzws7J6gxqyY5BTaAqzbXg%3D%3D", "Potentiometers 20K  20%  9MM CARBON POT", "https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf", "25.5 mm"
+END_PART
+
+END.

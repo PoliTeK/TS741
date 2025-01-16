@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DIOAD1068W53L380D172"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DIOAD1068W53L380D172")
+        (spec "default")
+    )
+)

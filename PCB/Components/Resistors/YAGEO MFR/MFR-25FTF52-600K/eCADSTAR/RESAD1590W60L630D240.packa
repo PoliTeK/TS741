@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MFR-25FTF52-600K"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-21-08:44:54)
+    (mountForm default
+        (footprintRef "RESAD1590W60L630D240")
+        (spec "System")
+    )
+)

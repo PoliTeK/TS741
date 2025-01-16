@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model S202M29Z5UN63L6R
+#/10332082/1581014/2.50/2/4/Capacitor
+DEF S202M29Z5UN63L6R C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "S202M29Z5UN63L6R" 350 150 50 H V L CNN
+F2 "S202M29Z5UN63L6R" 350 50 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/427/sseries-1762239.pdf" 350 -50 50 H I L CNN
+F4 "Cap Ceramic Single 0.002uF 1000V Z5U 20% (7.5 X 4mm) Radial 6.4mm 125C Bulk" 350 -150 50 H I L CNN "Description"
+F5 "7.5" 350 -250 50 H I L CNN "Height"
+F6 "594-S202M29Z5UN63L6R" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/S202M29Z5UN63L6R?qs=a%252BZougrH3egAymutgjauOw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "S202M29Z5UN63L6R" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

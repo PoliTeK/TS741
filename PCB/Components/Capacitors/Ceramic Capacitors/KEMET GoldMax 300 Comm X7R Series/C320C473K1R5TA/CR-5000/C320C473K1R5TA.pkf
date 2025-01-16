@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C320C473K1R5TA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C320C473K1R5TA")
+        (spec "default")
+    )
+)

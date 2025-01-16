@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "S202M29Z5UN63L6R"
+   (description "Cap Ceramic Single 0.002uF 1000V Z5U 20% (7.5 X 4mm) Radial 6.4mm 125C Bulk")
+   (family "CAP")
+   (package "S202M29Z5UN63L6R")
+   (attribute "Datasheet Link" "https://www.mouser.co.uk/datasheet/2/427/sseries-1762239.pdf")
+   (attribute "Geometry.Height" "7.5mm")
+   (attribute "Mouser Part Number" "594-S202M29Z5UN63L6R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/S202M29Z5UN63L6R?qs=a%252BZougrH3egAymutgjauOw%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "S202M29Z5UN63L6R")
+   (gate
+    (symbol "S202M29Z5UN63L6R")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "S202M29Z5UN63L6R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "S202M29Z5UN63L6R"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.55 -2.6)
+      (pt 6.95 -2.6)
+      (pt 6.95 1.4)
+      (pt -0.55 1.4)
+      (pt -0.55 -2.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.691 -3.6)
+      (pt 8.091 -3.6)
+      (pt 8.091 2.4)
+      (pt -1.691 2.4)
+      (pt -1.691 -3.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.55 -1)
+      (pt -0.55 -2.6)
+      (pt 7 -2.6)
+      (pt 6.95 -2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.55 1.4)
+      (pt -0.55 1.4)
+      (pt -0.55 1.4)
+      (pt 6.95 1.4)
+      (pt 6.95 -0.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 6.400 -1.200) (padstack 0))
+   (padstack 0
+    (hole 0.85)
+    (plated true)
+    (pad (layer TCOP) (round 1.381))
+    (pad (layer INNER) (round 1.381))
+    (pad (layer BCOP) (round 1.381))
+   )
+   (model "S202M29Z5UN63L6R.stp"
+    (euler 0 0 0)
+    (offset 3.200000047683716 -0.6000000238418579 3.7300000190734863)
+   )
+  )
+ )
+)

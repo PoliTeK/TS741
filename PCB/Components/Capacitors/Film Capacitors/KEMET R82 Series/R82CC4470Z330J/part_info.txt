@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=R82CC4470Z330J
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2019-04-16 11:38:22
+Downloaded=2025-01-16 14:08:27
+3D=Y

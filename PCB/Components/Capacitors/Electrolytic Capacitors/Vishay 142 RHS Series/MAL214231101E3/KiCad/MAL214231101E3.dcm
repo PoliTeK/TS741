@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAL214231101E3
+D Aluminum Electrolytic Capacitors - Radial Leaded 100uF 50V 8x12mm 105 C 2500h
+K
+F http://www.vishay.com/docs/28402/142rhs.pdf
+$ENDCMP
+#
+#End Doc Library

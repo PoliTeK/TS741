@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CAPPA2134W54L610D381"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CAPPA2134W54L610D381")
+        (spec "default")
+    )
+)

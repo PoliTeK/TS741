@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'K104K15X7RF5TH5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "K104K15X7RF5TH5" (!) = "", "K104K15X7RF5TH5", "Other", "594-K104K15X7RF5TH5", "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/K104K15X7RF5TH5?qs=CuWZN%2F5Vbiofhf%252BuZNGw%2Fg%3D%3D", "Vishay K104K15X7RF5TH5 100nF Multilayer Ceramic Capacitor MLCC 50V dc +/-10% Tolerance Through Hole", "https://www.vishay.com/docs/45171/kseries.pdf", "6.6 mm"
+END_PART
+
+END.

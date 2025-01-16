@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL072CP
+D Dual Low-Noise JFET-Input General-Purpose Operational Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+#End Doc Library

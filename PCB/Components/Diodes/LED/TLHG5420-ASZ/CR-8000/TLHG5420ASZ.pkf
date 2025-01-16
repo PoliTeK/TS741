@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TLHG5420ASZ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TLHG5420ASZ")
+        (spec "default")
+    )
+)

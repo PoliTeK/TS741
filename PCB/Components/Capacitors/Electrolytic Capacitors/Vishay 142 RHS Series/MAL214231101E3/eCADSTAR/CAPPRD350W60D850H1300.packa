@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAL214231101E3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-02-10:14:25)
+    (mountForm default
+        (footprintRef "CAPPRD350W60D850H1300")
+        (spec "System")
+    )
+)

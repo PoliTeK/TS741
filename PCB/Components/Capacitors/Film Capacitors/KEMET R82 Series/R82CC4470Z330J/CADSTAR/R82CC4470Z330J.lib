@@ -1,0 +1,16 @@
+.R82CC4470Z330J :1 ;R82, Film, Metallized Polyester, Automotive Grade, 4.7 uF, 5%, 30 VAC, 50 VDC, 105C, -55C, 85C, 0.8 % , 212.8 MOhms, 25 V/us, 7000 pH, 1.333 g, 7.2mm, 13mm, 7.2mm, Lead Spacing = 5mm, 750
+R82CC4470Z330J
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN R82CC4470Z330J
+~!Mouser Part Number (80-R82CC4470Z330J)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/R82CC4470Z330J?qs=Jv4FAWB%252B0HZ5VQmK5HF3SA%3D%3D)
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (R82CC4470Z330J)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_F3101_R82.pdf)
+~!Height (13.1mm)
+~!3D_Model (R82CC4470Z330J)
+R82CC4470Z330J
+1.1!U 2.1!U 

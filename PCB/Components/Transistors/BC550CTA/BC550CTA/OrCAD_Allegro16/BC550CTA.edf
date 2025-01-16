@@ -1,0 +1,177 @@
+
+(EDIF
+  (rename &BC550CTA "BC550CTA")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 01 16 14 39 54)
+      (dataOrigin "984340/1581014/2.50/3/4/Transistor BJT PNP")
+      (program "SamacSys ECAD Model BC550CTA"
+        (version "1.2"))))
+  (library
+  (rename &BC550CTA "BC550CTA")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BC550CTA "BC550CTA")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "BC550CTA"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "KA431AZTA"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "512-BC550CTA"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BC550CTA?qs=ljbEvF4DwOM46%2Fg9NzWlqQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BC550CTA"))
+          (property (rename &Description "Description") (string "Bipolar Transistors - BJT NPN 45V 100mA HFE/800"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"))
+          (property (rename &Height "Height") (string "5.33 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BC550CTA"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &C "C")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &B "B")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &E "E")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &B)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -200))))
+            )
+            (portImplementation
+              (name &E)
+              (figure PIN (path (pointList (pt 300 -500) (pt 300 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -500))))
+            )
+            (portImplementation
+              (name &C)
+              (figure PIN (path (pointList (pt 300 100) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 200))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 200 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -150)
+                  (pt 300 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -250)
+                  (pt 300 -350)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -350)
+                  (pt 300 -400)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -50)
+                  (pt 300 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -200)
+                  (pt 200 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 92 -200)
+                (pt 408 -200)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 280 -310)
+                  (pt 260 -330)
+                  (pt 240 -290)
+                  (pt 280 -310)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 -220))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 -320))))
+          )
+        )
+      )
+    )
+  )
+)

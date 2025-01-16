@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/167992/1581014/2.50/2/2/Capacitor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c121.7_h71" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="27.952755905511">
+    <padshape layer="TOP" shape="round" width="47.913385826771" height="47.913385826771" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="55.787401574802" height="55.787401574802" />
+    <padshape layer="INNER" shape="round" width="47.913385826771" height="47.913385826771" />
+    <padshape layer="BOTTOM" shape="round" width="47.913385826771" height="47.913385826771" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="55.787401574802" height="55.787401574802" />
+  </padstyle>
+  <footprint name="C320C473K1R5TA" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c121.7_h71" originx="-49.999999999999" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c121.7_h71" originx="49.999999999999" originy="0" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-99.999999999999" originy="62.59842519685" endx="99.999999999999" endy="62.59842519685" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="99.999999999999" originy="62.59842519685" endx="99.999999999999" endy="-62.59842519685" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="99.999999999999" originy="-62.59842519685" endx="-99.999999999999" endy="-62.59842519685" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-99.999999999999" originy="-62.59842519685" endx="-99.999999999999" endy="62.59842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="62.59842519685" endx="99.999999999999" endy="62.59842519685" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="99.999999999999" originy="62.59842519685" endx="99.999999999999" endy="-62.59842519685" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="99.999999999999" originy="-62.59842519685" endx="-99.999999999999" endy="-62.59842519685" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="-62.59842519685" endx="-99.999999999999" endy="62.59842519685" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-153.54330708661" originy="82.283464566928" endx="119.68503937008" endy="82.283464566928" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="119.68503937008" originy="82.283464566928" endx="119.68503937008" endy="-82.283464566928" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="119.68503937008" originy="-82.283464566928" endx="-153.54330708661" endy="-82.283464566928" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-153.54330708661" originy="-82.283464566928" endx="-153.54330708661" endy="82.283464566928" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-125.9842519685" originy="0" endx="-125.9842519685" endy="0" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-129.92125984252" originy="0" startangle=".0" sweepangle="-180.0" radius="3.9370078740157" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-133.85826771653" originy="0" endx="-133.85826771653" endy="0" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-129.92125984252" originy="0" startangle="180.0" sweepangle="-180.0" radius="3.9370078740157" width="7.8740157480314" />
+  </footprint>
+  <symbol name="C320C473K1R5TA" originx="0" originy="0">
+    <line originx="220" originy="100" endx="220" endy="-100" width="0" />
+    <line originx="280" originy="100" endx="280" endy="-100" width="0" />
+    <line originx="200" originy="0" endx="220" endy="0" width="0" />
+    <line originx="280" originy="0" endx="300" endy="0" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="300" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="C320C473K1R5TA" designatorprefix="C" height="0" footprint="C320C473K1R5TA">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="C320C473K1R5TA" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="GoldMax 300 Comm X7R, Ceramic, 0.047 uF, 10%, 100 VDC, 250 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 21.28 GOhms, 5.08mm, 5.84mm, 3.18mm, Lead Spacing = 2.54mm, 7mm, 0.51mm, 500, 80" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="80-C320C473K1R" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/KEMET/C320C473K1R5TA?qs=c4UyoTs%2FLq3hm3XzMZbfrg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="KEMET" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="C320C473K1R5TA" />
+  </component>
+</quadcept_library>

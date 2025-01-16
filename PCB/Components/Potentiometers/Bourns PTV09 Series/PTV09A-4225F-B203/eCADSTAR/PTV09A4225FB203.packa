@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PTV09A-4225F-B203"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-08-05:54:59)
+    (mountForm default
+        (footprintRef "PTV09A4225FB203")
+        (spec "System")
+    )
+)

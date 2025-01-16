@@ -1,0 +1,16 @@
+.MJ-63022B :1 ;6.35 mm, Mono, Right Angle, Through Hole Mount, 2 Conductors, 1 Internal Switch, Audio Jack Connector
+MJ63022B
+*STM J
+*NGS
+*PLB 1="SLEEVE" 2="TIP" 4="TIP SWITCH"
+*MXP 3
+*DFN MJ-63022B
+~!Mouser Part Number (490-MJ-63022B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/MJ-63022B?qs=hWgE7mdIu5QSu1ii218TqA%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (MJ-63022B)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/supplyframepdf/mj-63022b.pdf)
+~!Height (12.8mm)
+~!3D_Model (MJ-63022B)
+MJ-63022B
+1.1!U 2.1!U 4.1!U 

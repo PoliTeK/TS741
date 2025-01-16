@@ -1,0 +1,64 @@
+# Created by Ultra Librarian 8.3.365 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "100SP1T1_EWI")
+Pad (Name "1") (Location 0, 0) (HoleSize 60) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -40)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Top)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 0, -185.03939819) (HoleSize 60) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -40)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Top)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "3") (Location 0, -370.07879819) (HoleSize 60) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -40)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Top)
+PadShape (Size 80, 80) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 6) (Start -145, 74.96060181) (End -145, -445.03939819) (Layer Mechanical15) 
+Line (Width 6) (Start -145, -445.03939819) (End 145, -445.03939819) (Layer Mechanical15) 
+Line (Width 6) (Start 145, -445.03939819) (End 145, 74.96060181) (Layer Mechanical15) 
+Line (Width 6) (Start 145, 74.96060181) (End -145, 74.96060181) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-145, 74.96060181)
+Point (-145, -445.03939819)
+Point (145, -445.03939819)
+Point (145, 74.96060181)
+EndPolygon
+Line (Width 6) (Start -140, -440.03939819) (End 140, -440.03939819) (Layer TopOverlay) 
+Line (Width 6) (Start 140, -440.03939819) (End 140, 69.96060181) (Layer TopOverlay) 
+Line (Width 6) (Start 140, 69.96060181) (End -140, 69.96060181) (Layer TopOverlay) 
+Line (Width 6) (Start -140, 69.96060181) (End -140, -440.03939819) (Layer TopOverlay) 
+Arc (Width 20) (Radius 15) (Location 165, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -135, -435.03939819) (End 135, -435.03939819) (Layer Mechanical13) 
+Line (Width 1) (Start 135, -435.03939819) (End 135, 64.96060181) (Layer Mechanical13) 
+Line (Width 1) (Start 135, 64.96060181) (End -135, 64.96060181) (Layer Mechanical13) 
+Line (Width 1) (Start -135, 64.96060181) (End -135, -435.03939819) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location 0, 75) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location 165, 0) (StartAngle 0) (EndAngle 360) (Layer BottomOverlay) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "100SP1T1B4M2QE") (PartCount 1) (DesPrefix "SW?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 700, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 700, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 5) (Start 300, 0) (End 450, 0) (Part 1)
+Line (Width 5) (Start 700, 0) (End 550, 0) (Part 1)
+Line (Width 5) (Start 700, -100) (End 500, -100) (Part 1)
+Line (Width 5) (Start 500, -80) (End 500, -100) (Part 1)
+Line (Width 5) (Start 500, -60) (End 530, 20) (Part 1)
+Rectangle (Width 5) (Start 300, -200) (End 700, 100) (Part 1)
+Arc (Width 5) (Radius 10) (Location 500, -70) (StartAngle 270) (EndAngle 270) (Part 1)
+Arc (Width 5) (Radius 10) (Location 460, 0) (StartAngle 0) (EndAngle 0) (Part 1)
+Arc (Width 5) (Radius 10) (Location 540, 0) (StartAngle 0) (EndAngle 0) (Part 1)
+Parameter (Name "Type") (Location 500, 200) (Height 82) (Rotation 0) (Justification Center) (Value "Toggle Switches") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "E-Switch") (Part 1)
+Parameter (Name "RefDes") (Location 500, 300) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "100SP1T1_EWI")
+EndComponent
+EndComponents

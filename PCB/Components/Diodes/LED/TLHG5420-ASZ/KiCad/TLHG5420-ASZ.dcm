@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLHG5420-ASZ
+D Standard LEDs - Through Hole 5MM LED GREEN TINT. DIFFused with Standoff
+K
+F https://www.vishay.com/docs/86335/tlhg542_tlhg642.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "R82CC4470Z330J"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "R82CC4470Z330J")
+        (spec "default")
+    )
+)

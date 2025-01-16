@@ -1,0 +1,16 @@
+.TLHG5420-ASZ :1 ;Standard LEDs - Through Hole 5MM LED GREEN TINT. DIFFused with Standoff
+TLHG5420ASZ
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN TLHG5420-ASZ
+~!Mouser Part Number (78-TLHG5420-ASZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/TLHG5420-ASZ?qs=M%2FWrVUahkW9Iv5EBNpgqMA%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TLHG5420-ASZ)
+~!Link Datasheet (https://www.vishay.com/docs/86335/tlhg542_tlhg642.pdf)
+~!Height (12.8mm)
+~!3D_Model (TLHG5420-ASZ)
+TLHG5420-ASZ
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=MAL214231101E3
+PartCategory=Capacitor
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2023-10-06 10:38:24
+Downloaded=2025-01-16 14:28:11
+3D=Y

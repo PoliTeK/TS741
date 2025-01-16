@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AR211C333K4RTR1
+D Multilayer Ceramic Capacitors MLCC - Leaded 100V .033uF X7R Tol 10% AEC-Q200
+K
+F https://datasheets.avx.com/AR-Series.pdf
+$ENDCMP
+#
+#End Doc Library
