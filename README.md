@@ -93,11 +93,11 @@ Ideally, the parameter $m$ should vary from $0$ (fully closed potentiometer) to 
 
 ## Credits
 
-???
+For this project, we used the [Tube Screamer Analysis made by Electrosmash](https://electrosmash.com/tube-screamer-analysis).
 
 ## License
 
-???
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ---
 
