@@ -1,9 +1,0 @@
-Manufacturer=Vishay
-PartNumber=TLHG5420-ASZ
-PartCategory=LED
-PackageCategory=Other
-PinCount=2
-Version=1.2
-Released=2024-02-12 03:59:37
-Downloaded=2025-01-16 14:35:03
-3D=Y

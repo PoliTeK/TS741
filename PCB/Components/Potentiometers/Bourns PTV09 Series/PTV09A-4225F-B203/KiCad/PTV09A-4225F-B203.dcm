@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PTV09A-4225F-B203
-D Potentiometers 20K  20%  9MM CARBON POT
-K
-F https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -1,9 +1,0 @@
-Manufacturer=YAGEO
-PartNumber=MFR-25FTF52-600K
-PartCategory=Resistor
-PackageCategory=Resistors, Axial Diameter Horizontal Mounting
-PinCount=2
-Version=1.1
-Released=2024-02-13 06:17:48
-Downloaded=2025-01-16 13:56:31
-3D=Y

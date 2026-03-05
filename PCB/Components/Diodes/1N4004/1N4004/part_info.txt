@@ -1,9 +1,0 @@
-Manufacturer=Diotec
-PartNumber=1N4004
-PartCategory=Diode
-PackageCategory=Diodes, Axial Diameter Horizontal Mounting
-PinCount=2
-Version=1.1
-Released=2024-01-12 08:25:56
-Downloaded=2025-01-16 14:32:23
-3D=Y

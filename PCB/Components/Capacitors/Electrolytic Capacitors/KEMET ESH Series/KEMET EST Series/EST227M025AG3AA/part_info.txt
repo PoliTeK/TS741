@@ -1,9 +1,0 @@
-Manufacturer=KEMET
-PartNumber=EST227M025AG3AA
-PartCategory=Capacitor Polarised
-PackageCategory=Capacitor, Polarized Radial Diameter
-PinCount=2
-Version=3.1
-Released=2021-11-05 15:14:19
-Downloaded=2025-01-16 14:30:46
-3D=Y

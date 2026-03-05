@@ -1,9 +1,0 @@
-Manufacturer=KEMET
-PartNumber=C320C473K1R5TA
-PartCategory=Capacitor
-PackageCategory=Other
-PinCount=2
-Version=3.1
-Released=2018-08-21 09:37:02
-Downloaded=2025-01-16 14:20:42
-3D=Y

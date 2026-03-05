@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1N4004
-D Rectifiers Diode, DO-41, 400V, 1A
-K
-F https://www.diodes.com/assets/Datasheets/ds28002.pdf
-$ENDCMP
-#
-#End Doc Library

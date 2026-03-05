@@ -1,9 +1,0 @@
-Manufacturer=KEMET
-PartNumber=C430C106K3R5TA
-PartCategory=Capacitor Polarised
-PackageCategory=Capacitors, Polarized Axial Diameter Horizontal Mounting
-PinCount=2
-Version=4.1
-Released=2022-10-16 14:13:14
-Downloaded=2025-01-16 14:26:56
-3D=Y

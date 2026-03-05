@@ -1,9 +1,0 @@
-Manufacturer=onsemi
-PartNumber=1N4148
-PartCategory=Diode
-PackageCategory=Diodes, Axial Diameter Horizontal Mounting
-PinCount=2
-Version=2.1
-Released=2018-11-20 05:35:37
-Downloaded=2025-01-16 14:31:37
-3D=Y

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP C430C106K3R5TA
-D AxiMax 400 Comm X7R, Ceramic, 10 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, AxiMax, Commercial Standard, 10 % , 50 MOhms, 3.81mm, 6.1mm, 25.4mm, 0.51mm, 200, 80
-K
-F https://content.kemet.com/datasheets/KEM_C1041_AXIMAX_X7R.pdf
-$ENDCMP
-#
-#End Doc Library

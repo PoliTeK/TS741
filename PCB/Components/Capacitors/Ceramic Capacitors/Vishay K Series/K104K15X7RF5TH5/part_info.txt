@@ -1,9 +1,0 @@
-Manufacturer=Vishay
-PartNumber=K104K15X7RF5TH5
-PartCategory=Capacitor
-PackageCategory=Other
-PinCount=2
-Version=1.2
-Released=2019-01-21 12:55:28
-Downloaded=2025-01-16 14:25:19
-3D=Y

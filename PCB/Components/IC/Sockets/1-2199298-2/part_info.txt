@@ -1,9 +1,0 @@
-Manufacturer=TE Connectivity
-PartNumber=1-2199298-2
-PartCategory=Integrated Circuit
-PackageCategory=Dual-In-Line Sockets
-PinCount=8
-Version=4.1
-Released=2017-03-19 15:57:52
-Downloaded=2025-01-16 14:38:43
-3D=Y
