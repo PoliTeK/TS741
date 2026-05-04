@@ -116,13 +116,15 @@ For the simulation we used an op-amp TL042 model which is not included in LTspic
 
 To find LTspice’s component folder on your computer:
 - Open any schematic in LTspice.
-- Open the components window.
+- Open the components window pressing the `P` key.
 - Under `Top Directory:`, you will see the path to the LTspice's internal library folder:
     - On Windows, it should be something like: `C:\users\<username>\AppData\Local\LTspice\lib\sym`.
-    - On Linux, using Wine, the folder `C:\users\<username>\AppData\Local\LTspice\lib\sym` corresponds to `~/.wine/drive_c/users/<username>/AppData/Local/LTspice/lib/sym`.
+    - On Linux:
+		- Using Wine, usually the folder is `~/.wine/drive_c/users/<username>/AppData/Local/LTspice/lib/sym`.
+		- Without Wine, usually the folder is `~/.local/share/ltspice/drive_c/users/<username>/AppData/Local/LTspice/lib/sym`.
 - Move the files:
-    - `TL072.asy` to the folder `C:\...\LTspice\lib\sym\OpAmps`.
-    - `TL072.sub` to the folder `C:\...\LTspice\lib\sub`.
+    - `TL072.asy` to the folder `...\LTspice\lib\sym\OpAmps`.
+    - `TL072.sub` to the folder `...\LTspice\lib\sub`.
 - After moving the two files, restart LTspice.
 
 ### Running a simulation with an external audio
