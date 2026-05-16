@@ -1,0 +1,1185 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "rect",
+            "position": {
+                "x": 94.488,
+                "y": -113.386
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "In",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "short",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -113.386
+                },
+                {
+                    "x": 151.181,
+                    "y": -113.386
+                }
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 151.181,
+                    "y": -113.386
+                },
+                {
+                    "x": 188.976,
+                    "y": -113.386
+                }
+            ],
+            "label": {
+                "value": "1k\\Omega",
+                "otherSide": true
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 170.079,
+                "y": -132.283
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "R7",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 226.772,
+                "y": -113.386
+            },
+            "id": "circ"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -113.386
+                },
+                {
+                    "x": 226.772,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -75.591
+                },
+                {
+                    "x": 226.772,
+                    "y": -37.795
+                }
+            ],
+            "label": {
+                "value": "0.22 \\mu F / 35V",
+                "otherSide": true
+            },
+            "id": "curved capacitor"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 226.772,
+                "y": -18.898
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -37.795
+                },
+                {
+                    "x": 226.772,
+                    "y": -18.898
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 264.567,
+                "y": -56.693
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "C5",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 236.221,
+                "y": -75.59
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            },
+            "text": {
+                "text": "+",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 188.976,
+                    "y": -113.386
+                },
+                {
+                    "x": 340.157,
+                    "y": -113.386
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -113.386
+                },
+                {
+                    "x": 226.772,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -264.567
+                },
+                {
+                    "x": 264.567,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 264.567,
+                    "y": -264.567
+                },
+                {
+                    "x": 302.362,
+                    "y": -264.567
+                }
+            ],
+            "label": {
+                "value": "20k \\Omega"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 283.465,
+                "y": -245.669
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "Tone",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 302.362,
+                    "y": -264.567
+                },
+                {
+                    "x": 340.157,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 340.157,
+                "y": -264.567
+            },
+            "id": "circ"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 283.465,
+                    "y": -321.26
+                },
+                {
+                    "x": 283.465,
+                    "y": -377.953
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 283.465,
+                    "y": -377.953
+                },
+                {
+                    "x": 226.772,
+                    "y": -377.953
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -377.953
+                },
+                {
+                    "x": 188.976,
+                    "y": -377.953
+                }
+            ],
+            "label": {
+                "value": "0.22 \\mu F"
+            },
+            "id": "curved capacitor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 226.772,
+                "y": -387.402
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            },
+            "text": {
+                "text": "+",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 207.874,
+                "y": -406.299
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "C6",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 188.976,
+                    "y": -377.953
+                },
+                {
+                    "x": 151.181,
+                    "y": -377.953
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 151.181,
+                    "y": -377.953
+                },
+                {
+                    "x": 113.386,
+                    "y": -377.953
+                }
+            ],
+            "label": {
+                "value": "220\\Omega / 100\\Omega"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 132.283,
+                "y": -396.85
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "R10",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -377.953
+                },
+                {
+                    "x": 75.591,
+                    "y": -377.953
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 75.591,
+                    "y": -377.953
+                },
+                {
+                    "x": 75.591,
+                    "y": -340.157
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 75.591,
+                "y": -340.157
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 283.465,
+                    "y": -321.26
+                },
+                {
+                    "x": 283.465,
+                    "y": -292.913
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 396.85,
+                    "y": -264.567
+                },
+                {
+                    "x": 434.646,
+                    "y": -264.567
+                }
+            ],
+            "label": {
+                "value": "1k \\Omega"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 415.748,
+                "y": -245.669
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "R9",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 340.157,
+                "y": -113.386
+            },
+            "id": "circ"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -113.386
+                },
+                {
+                    "x": 340.157,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -75.591
+                },
+                {
+                    "x": 340.157,
+                    "y": -37.795
+                }
+            ],
+            "label": {
+                "value": "10k\\Omega",
+                "otherSide": true
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 368.504,
+                "y": -56.693
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "R8",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -37.795
+                },
+                {
+                    "x": 340.157,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 340.157,
+                "y": 9.449
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "4.5V",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "\\text{U2}",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 418.96,
+                "y": -132.107
+            },
+            "scale": {
+                "x": 1.02,
+                "y": 1.02
+            },
+            "id": "op amp"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 415.748,
+                    "y": -111.739
+                },
+                {
+                    "x": 415.748,
+                    "y": -76.06
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 415.748,
+                "y": -76.06
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 415.748,
+                    "y": -153.297
+                },
+                {
+                    "x": 415.748,
+                    "y": -189.446
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 415.748,
+                "y": -198.895
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "9V",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 464.835,
+                    "y": -132.049
+                },
+                {
+                    "x": 491.339,
+                    "y": -132.283
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 491.339,
+                "y": -132.049
+            },
+            "id": "circ"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 491.339,
+                    "y": -132.283
+                },
+                {
+                    "x": 491.339,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 491.339,
+                    "y": -264.567
+                },
+                {
+                    "x": 434.646,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -113.386
+                },
+                {
+                    "x": 373.084,
+                    "y": -113.628
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 373.084,
+                    "y": -151.408
+                },
+                {
+                    "x": 340.157,
+                    "y": -151.181
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -151.181
+                },
+                {
+                    "x": 340.157,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -264.567
+                },
+                {
+                    "x": 396.85,
+                    "y": -264.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 453.543,
+                "y": -113.386
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "TL072",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 491.339,
+                    "y": -132.049
+                },
+                {
+                    "x": 529.134,
+                    "y": -132.283
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 529.134,
+                    "y": -132.049
+                },
+                {
+                    "x": 566.929,
+                    "y": -132.283
+                }
+            ],
+            "label": {
+                "value": "1 \\mu F / 50V"
+            },
+            "id": "capacitor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 548.031,
+                "y": -103.937
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "C7",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 566.929,
+                    "y": -132.283
+                },
+                {
+                    "x": 604.724,
+                    "y": -132.283
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 604.724,
+                    "y": -132.283
+                },
+                {
+                    "x": 642.52,
+                    "y": -132.283
+                }
+            ],
+            "label": {
+                "value": "1k\\Omega"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 623.622,
+                "y": -113.386
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "R11",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 642.52,
+                    "y": -132.283
+                },
+                {
+                    "x": 680.315,
+                    "y": -132.283
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 680.315,
+                    "y": -132.283
+                },
+                {
+                    "x": 680.315,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 680.315,
+                    "y": -75.591
+                },
+                {
+                    "x": 680.315,
+                    "y": -37.795
+                }
+            ],
+            "label": {
+                "value": "100k\\Omega"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 651.969,
+                "y": -56.693
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "Level",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 680.315,
+                    "y": -37.795
+                },
+                {
+                    "x": 680.315,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 680.315,
+                "y": 0
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 755.906,
+                    "y": -56.693
+                },
+                {
+                    "x": 774.803,
+                    "y": -56.693
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 755.906,
+                    "y": -56.693
+                },
+                {
+                    "x": 737.008,
+                    "y": -56.693
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 793.701,
+                "y": -56.693
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.795,
+                "y": 18.898
+            },
+            "text": {
+                "text": "Out",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        }
+    ]
+}
