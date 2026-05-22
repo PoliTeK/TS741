@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-		<img src="images/TS741.webp" width="200">
+		<img src="Images/TS741.webp" width="200">
 	<br>
 		TS741
 	<br>
