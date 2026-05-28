@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-		<img src="images/TS741.webp" width="200">
+		<img src="Images/TS741.webp" width="200">
 	<br>
 		TS741
 	<br>
@@ -20,7 +20,7 @@
 
 ## Key Features
 
-- **5 different clipping modes** using different diodes.
+- **2 different clipping modes** using different diodes.
 - **More bass mod**: boosted low frequences under 700Hz.
 - **Tone mod**: wider frequency response, making the pedal more versatile for other instruments like synths.
 - **9V Battery slot**, automatically unplugged when using cable power.
