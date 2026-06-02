@@ -10,6 +10,11 @@
 
 ---
 
+> ### 🎉 Big News!
+> This project is now fully published! Check out the [Documentation folder](./Documentation) for the datasheet, manual and technical documentation.
+
+---
+
 <p align="center">
 	<a href="#key-features">Key Features</a> •
 	<a href="#list-of-components">List of Components</a> •
