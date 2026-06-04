@@ -137,14 +137,14 @@ To find LTspice’s component folder on your computer:
 - Inside the `Simulation` folder you can already find a `test.wav` audio file for simulation
 - Alternatively, if you want to run a simulation with your own audio file:
     - Convert your audio file to `.wav` format (you can use this [online converter](https://online-audio-converter.com/it/)).
-    - Rename your audio file to `test.wav` and place it in the same folder as the simulation file `TS741.asc`.
+    - Rename your audio file to `test.wav` and place it in the same folder as the simulation file `PoliTeK_TS741.asc`.
 - Run the simulation and set the duration with the command `.tran <time_in_seconds>`.
-- After the simulation, an `output.wav` file will be generated in the same folder as `TS741.asc`, containing the distorted input audio (you can convert it to `.mp3` using the same [online converter](https://online-audio-converter.com/it/)).
+- After the simulation, an `output.wav` file will be generated in the same folder as `PoliTeK_TS741.asc`, containing the distorted input audio (you can convert it to `.mp3` using the same [online converter](https://online-audio-converter.com/it/)).
 
 ### Modifications needed for audio file simulation
 
 To set an audio file as input, set the `value` of the `V2` input generator inside to `WAVEFILE=<filename>.wav` (e.g., `WAVEFILE=test.wav`). To modify the value, press `Ctrl + Right Click` on the `V2` generator.
-Spice will search for the file in the same folder as `TS741.asc`.
+Spice will search for the file in the same folder as `PoliTeK_TS741.asc`.
 To generate an output file, use the command `.wave <filename>.wav 16 44.1k V(<output_node>)` (for more details on this command, check [this link](https://spiceman.net/ltspice-command-wave/#index_id1)).
 
 ### Troubleshooting for `Bad wave file format found in test.wav` error
