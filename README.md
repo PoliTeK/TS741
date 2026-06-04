@@ -11,7 +11,7 @@
 ---
 
 > ### 🎉 Big News!
-> This project is now fully published! Check out the [Documentation folder](./Documentation) for the datasheet, manual and technical documentation.
+> This project is now fully published! Check out the [Documentation folder](./Documents) for the datasheet, manual and technical documentation.
 
 ---
 
